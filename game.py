@@ -28,6 +28,11 @@ def main():
                     ttt.draw_move(p, screen, row, col)
                     ttt.change_player_parity()
                     ttt.board.check_win(p, screen)
+            
+            if e.type == p.KEYDOWN:
+                if e.key == p.K_r:
+                    ttt.reset()
+                    ai = ttt.ai
                 
         if ttt.gamemode == "ai" and ttt.player == ai.player:
             p.display.update()

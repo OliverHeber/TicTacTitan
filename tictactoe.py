@@ -7,8 +7,8 @@ class TicTacToe:
         self.board = Board()
         self.player = 1
         self.playing = True
-        # self.gamemode = 'pvp'
-        self.gamemode = 'ai'
+        self.gamemode = 'pvp'
+        # self.gamemode = 'ai'
         self.ai = AI()
 
     def draw_board(self, p, screen):
@@ -41,3 +41,6 @@ class TicTacToe:
                           (col * SQ_SIZE + SQ_SIZE // 2, row * SQ_SIZE + SQ_SIZE // 2),
                           CIRCLE_RADIUS,
                           CIRCLE_WIDTH)
+    
+    def reset(self):
+        self.__init__()
