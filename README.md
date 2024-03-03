@@ -1,6 +1,6 @@
-# Unbeatable Tic-Tac-Toe AI 
+# Unbeatable TicTacToe AI 
 
-- Tic-Tac-Toe implemented using Pygame
+- TicTacToe implemented using Pygame
 - Multiple game modes: Human, Random, minimax
 - AI uses the minimax algorithm to guarantee no losses
 - Wins are calculated on each move and are displayed using a line through the winning squares
