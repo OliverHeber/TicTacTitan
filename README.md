@@ -1,4 +1,4 @@
-# Unbeatable TicTacToe AI 
+# TicTacTitan
 
 - TicTacToe implemented using Pygame
 - Multiple game modes: Human, Random, minimax
